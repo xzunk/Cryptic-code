@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Cryptic messages Genarator</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+<body>
+  
+  <section class="section">
+    <div class="container">
+      <h1 class="title has-text-centered"> Cryptic messages generator </h1>
+      <h2 class="subtitle has-text-centered">Encrypt a Message</h2>
+      <div class="columns">
+        <div class="column">
+        
+          <div class="field">
+            <div class="control">
+              <textarea class="textarea" id="inputText" placeholder="Enter your text or encrypted text" rows="3"></textarea>
+            </div>
+          </div>
+          <h3 class="title is-4 ">Text Encryption and Decryption : cryptic message</h3>
+          <div class="field">
+            <div class="control">
+              <textarea class="textarea" id="resultText" readonly rows="3"></textarea>
+            </div>
+          </div>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-primary" id="copyButton">Copy</button>
+            </div>
+            <div class="control">
+              <button class="button is-danger" id="clearButton">Clear</button>
+            </div>
+            <div class="control">
+              <button class="button is-success" id="downloadButton">Download</button>
+            </div>
+          </div>
+        </br>
+          
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+<script src="js.js"></script>
+
+</body>
+<footer class="footer is-dark">
+  <div class="content has-text-centered is-dark">
+    <p>
+      We do not store any text</a> Used
+      <a href="https://cryptojs.gitbook.io/docs/">Crypto js </a> For Encryption 
+    </p>
+  </div>
+</footer>
+</html>

@@ -1,0 +1,14 @@
+ body{
+      font-family: 'Open Sans', sans-serif;
+    }
+    .container {
+      margin-top: 20px;
+    }
+    .success {
+      color: green;
+      margin-top: 10px;
+    }
+
+    #resultText {
+      background-color: #f2f2f2; /* Set the background color of the result text input */
+    }
